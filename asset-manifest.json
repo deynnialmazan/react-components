@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-components/static/css/main.8217b003.css",
+    "main.css": "/react-components/static/css/main.4b9f00e6.css",
     "main.js": "/react-components/static/js/main.c2202c00.js",
     "static/media/shamin-haky-RIk-i9rXPao-unsplash.jpg": "/react-components/static/media/shamin-haky-RIk-i9rXPao-unsplash.6c73d4bcefb90e995675.jpg",
     "index.html": "/react-components/index.html",
-    "main.8217b003.css.map": "/react-components/static/css/main.8217b003.css.map",
+    "main.4b9f00e6.css.map": "/react-components/static/css/main.4b9f00e6.css.map",
     "main.c2202c00.js.map": "/react-components/static/js/main.c2202c00.js.map"
   },
   "entrypoints": [
-    "static/css/main.8217b003.css",
+    "static/css/main.4b9f00e6.css",
     "static/js/main.c2202c00.js"
   ]
 }
