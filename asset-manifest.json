@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-components/static/css/main.4b9f00e6.css",
-    "main.js": "/react-components/static/js/main.c2202c00.js",
-    "static/media/shamin-haky-RIk-i9rXPao-unsplash.jpg": "/react-components/static/media/shamin-haky-RIk-i9rXPao-unsplash.6c73d4bcefb90e995675.jpg",
+    "main.css": "/react-components/static/css/main.729240e4.css",
+    "main.js": "/react-components/static/js/main.f1512687.js",
+    "static/media/shamin-haky-RIk-i9rXPao-unsplash.jpg": "/react-components/static/media/shamin-haky-RIk-i9rXPao-unsplash.7358335542ce5c383c73.jpg",
     "index.html": "/react-components/index.html",
-    "main.4b9f00e6.css.map": "/react-components/static/css/main.4b9f00e6.css.map",
-    "main.c2202c00.js.map": "/react-components/static/js/main.c2202c00.js.map"
+    "main.729240e4.css.map": "/react-components/static/css/main.729240e4.css.map",
+    "main.f1512687.js.map": "/react-components/static/js/main.f1512687.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b9f00e6.css",
-    "static/js/main.c2202c00.js"
+    "static/css/main.729240e4.css",
+    "static/js/main.f1512687.js"
   ]
 }
