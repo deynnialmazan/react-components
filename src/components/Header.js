@@ -2,8 +2,10 @@ function Header(props) {
   return (
     <header>
     <div className="container flex">
-        <div className="title">
-            <img src={props.logo} />
+        <div className="header-title">
+            <picture>
+              <img className="header-icon" src={props.logo} />
+            </picture>
             <h2>{props.name}</h2>
         </div>
         <div className="nav-bar">
