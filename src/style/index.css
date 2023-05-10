@@ -117,6 +117,7 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.25s ease-in-out;
+    box-shadow: var(--app-body-box-shadow);
 }
 
 button + button {
@@ -133,9 +134,9 @@ button.primary:hover {
 }
 
 button.secondary {
-    background-color: var(--app-gray-section);
-    border: 1px solid var(--app-button-background-color);
-    color: var(--app-button-hover-background-color);
+    background-color: transparent;
+    border: 2px solid var(--app-button-background-color);
+    color: var(--app-gray-section);
 }
 
 
