@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+:root {
+    --app-body-box-shadow: 0 0.275rem 1.25rem rgb(11 15 25 / 5%), 0 0.25rem 0.5625rem rgb(11 15 25 / 3%);
+    --app-gray-section: #f3f6ff;
+    --app-button-background-color: #00be7f;
+    --app-button-hover-background-color: #027e55;
+    --app-title-color: #343541;
+    --app-gray-title: #9b9b9b;
+    --app-gray-content: #868585;
+    --app-gray-background:#f2f3f7; 
+}
+
+
+body {
+    background-color: var(--app-gray-background);
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+  }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height: 56px;
+    line-height: 56px;
+    box-shadow: var(--app-body-box-shadow);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--app-gray-background)
+}
+
+header h2 {
+    color: var(--app-button-background-color);
+}
+
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none; 
+}
+
+
+.nav-bar ul li + li {
+    margin-left: 20px; 
+}
+
+.nav-bar p {
+    font-size: 18px;
+    color: var(--app-title-color);
+    font-weight: 600;
+    transition: all 0.25s ease-in-out; 
+}
+
+.nav-bar p:hover {
+    color: #00be7f ;
+}
+
+.introduction {
+    height: 100vh;
+    text-align: left; 
+    overflow: hidden; 
+    display: grid;
+    place-content: center;
+    background: rgba(168, 168, 168, 1) url("../images/shamin-haky-RIk-i9rXPao-unsplash.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;  
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--app-gray-section);
+    text-align: center;
+}
+
+.introduction p {
+    font-size: 26px;
+    color: var(--app-gray-section);
+    margin-top: 10px;
+}
+
+.gallery {
+    height: 500px;
+    background-color: #9b9b9b15;
+}
+
+.title {
+    color: var(--app-title-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+button.primary {
+    background-color:var(--app-button-background-color);
+    border: 1px solid var(--app-button-background-color)
+}
+
+button.primary:hover {
+    background-color: var(--app-button-hover-background-color) ;
+}
+
+button.secondary {
+    background-color: var(--app-gray-section);
+    border: 1px solid var(--app-button-background-color);
+    color: var(--app-button-hover-background-color);
+}
+
+
+button.secondary:hover {
+    background-color: var(--app-button-hover-background-color);
+    color: var(--app-gray-section);
+}
+
+.gallery {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+   
+}
+
+.gallery-title {
+    font-size: 36px;
+    color: var(--app-button-background-color);
+    text-align: center;
+}
+
+.gallery-content {
+    color: var(--app-gray-content);
+    font-size: 22px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.gallery-image {
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid var(--app-gray-section);
+    transition: all 0.25s ease-in-out;
+}
+
+.gallery-image:hover {
+    border-color: var(--app-button-background-color)
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-description {
+    font-size: 18px;
+    color: var(--app-gray-content);
+    text-align: center;
+}
+
+.gallery-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    box-shadow: var(--app-body-box-shadow);
+    text-align: center;
+    font-weight: 600;
+    background-color: var(--app-gray-background);
+    color: var(--app-gray-content)
+}
