@@ -1,6 +1,6 @@
 # Dev e-Training - React page using components
 
-Hi! This is my React weppage using components.
+Hi! This is my React webpage using components.
 
 ## DEMO
 
