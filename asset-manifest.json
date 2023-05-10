@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.5a1816ec.css",
+    "main.js": "/react-gh-pages/static/js/main.c2202c00.js",
+    "static/media/shamin-haky-RIk-i9rXPao-unsplash.jpg": "/react-gh-pages/static/media/shamin-haky-RIk-i9rXPao-unsplash.6c73d4bcefb90e995675.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.5a1816ec.css.map": "/react-gh-pages/static/css/main.5a1816ec.css.map",
+    "main.c2202c00.js.map": "/react-gh-pages/static/js/main.c2202c00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1816ec.css",
+    "static/js/main.c2202c00.js"
+  ]
+}
